@@ -2,7 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+
 
     "skins/{{ site.text_skin | default: site.data.variables.default.text_skin }}",
     // "skins/chocolate",
