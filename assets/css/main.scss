@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
 
-
+@import
     "skins/{{ site.text_skin | default: site.data.variables.default.text_skin }}",
     // "skins/chocolate",
     // "skins/dark",
@@ -19,7 +19,6 @@
     // "skins/highlight/tomorrow-night-eighties",
     // "skins/highlight/tomorrow-night-blue",
     // "skins/highlight/tomorrow-night-bright",
-
 
     "common/variables",
     "common/function",
@@ -56,7 +55,6 @@
     "components/lightbox",
     "components/extensions",
 
-
     "additional/alert",
     "additional/tag",
     "additional/photo-frame",
@@ -71,5 +69,6 @@
     "layout/landing",
     "layout/404",
 
-    "custom"
-;
+    "custom";
+
+  
